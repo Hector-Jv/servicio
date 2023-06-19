@@ -2,9 +2,10 @@
   "name": "my-app",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://manuel-cmd.github.io/serviciosocial",
+  "homepage": "http://Hector-Jv.github.io/servicio",
   "dependencies": {
     "@emailjs/browser": "^3.11.0",
+    "@railway/cli": "^3.3.1",
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
@@ -47,5 +48,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "serve": "^14.2.0"
   }
 }
