@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+.informacionTema{
+    text-align: center;
+}
+.trabajos{
+    font-size: x-large;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.infoTrabajo{
+    font-size: large;
+}
+
+.tipo{    
+    font-size: large;
+}
+
+.tablaTrabajos{
+    border-radius: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    border-radius: 20px;
+}
+
+.celdaNombre{
+    width: 80%;
+}
+
+.celdaAño{
+    width: 10%;
+}
+
+.celdaTrabajo{
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    font-size: large;
+    margin-left: 20px;
+    height: 60px;
+    background-color: #808080;
+}
+
+.nombreTrabajo{
+    margin-left: 20px;
+}
+
+.enlaceTemaInteres{
+    margin-right: 0px;
+    background-color: aqua;
+}
+
+@media screen and (max-width:  900px){}

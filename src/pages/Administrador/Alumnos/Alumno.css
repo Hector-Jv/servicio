@@ -1,0 +1,82 @@
+.infoAlumno{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    max-width: 1024px;
+}
+
+.contenedorImagen{
+    width: 300px;
+    height: auto;
+}
+
+.imagenAlumno{
+    width: 100%;
+    height: auto;
+}
+
+.info{
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-left: 100px;
+    width: 80%;
+    height: auto;
+    font-size: large;
+}
+
+.nombreAlumno{
+    text-transform: uppercase;
+    letter-spacing: 0.5rem;
+    text-decoration: underline;
+    text-decoration-color: #e7dac2;
+    font-size: 2rem;   
+}
+
+.item_alumno {
+    grid-column: span 2;
+    transition: 0.5s filter;
+}
+
+.item_alumno:hover {
+    filter: brightness(0.3);
+}
+
+.item_alumno:first-of-type {
+    grid-column: 2 /span 2;
+}
+
+
+@media screen and (max-width:  600px){
+    .conteneroInfoAlumno
+    {        
+        width: 90%;
+        margin-top: 50px;
+    }
+    .infoAlumno{
+        width: 100%;  
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        height: auto;
+    }
+    .info{
+        width: 90%;
+        margin-left: 40px;
+        margin-top: 20px;
+    }
+    .contenedorImagen{
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+        height: auto;
+    }
+    .imagenAlumno{
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .contenedor-img{
+        display: none;
+    }
+}

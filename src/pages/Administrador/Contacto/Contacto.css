@@ -1,0 +1,96 @@
+.contacto{
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    font-size:xx-large;
+    text-align: center;
+    align-items: center;
+}
+
+.contacto .titulo{
+    text-align: center;
+}
+
+.etiqueta{
+    width: 30%;    
+}
+
+.correo, .mensaje{
+    display: flex;
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: x-large;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.inputEntrada{
+    font-size: large;
+    width: 50%;
+}
+
+.textMensaje{
+    resize: none;
+    font-size: large;
+    width: 50%;
+    height: 150px;
+}
+
+@media screen and (max-width:  1000px){
+    .contacto{
+        margin-left: auto;
+        margin-right: auto;
+        width: 90%;
+        font-size:xx-large;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        align-content: center;
+    }
+    .correo, .mensaje{
+        display: flex;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        font-size: x-large;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        justify-content: center;
+        align-content: center;
+    }
+    .inputEntrada, .textMensaje{
+        width: 60%;
+    }
+}
+
+@media screen and (max-width:  600px){
+    .contacto{
+        margin-left: auto;
+        margin-right: auto;
+        width: 90%;
+        font-size:xx-large;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        align-content: center;
+
+    }
+    .correo, .mensaje{
+        display: flex;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        font-size: x-large;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        justify-content: center;
+        align-content: center;
+    }
+    .inputEntrada, .textMensaje{
+        width: 80%;
+    }
+    .etiqueta{padding-bottom: 20px;}
+}

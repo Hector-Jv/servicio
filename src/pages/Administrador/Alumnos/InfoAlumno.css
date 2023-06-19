@@ -1,0 +1,158 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+.infoAlumnoPerfil{
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+}
+
+.contenedorImagenPerfil{
+    width: 50%;
+    height: auto;
+}
+
+.infoPerfil{
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-left: 90px;
+    width: 70%;
+    height: auto;
+    font-size: large;
+}
+
+.informacionAlumnoPerfil{
+    text-align: center;
+}
+
+.nombreAlumno{
+    text-transform: uppercase;
+    letter-spacing: 0.5rem;
+    text-decoration: underline;
+    text-decoration-color: #e7dac2;
+    font-size: 2rem;   
+}
+
+.trabajos{
+    font-size: x-large;
+}
+
+.infoTrabajo{
+    font-size: large;
+}
+
+.descargarCurriculum {
+    background-color: #4b4b4b;
+    font-size: 1rem;
+    color: #f1f1f1;
+    font-weight: bold;
+    border: none;
+    padding: .5rem 2rem;
+    border-radius: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+    text-decoration: none;
+}
+
+.descargarCurriculum:hover {
+    background-color: #808080;
+    transform: scale(1.1);
+}
+
+.tipo{    
+    font-size: large;
+}
+
+.tablaTrabajosAlumno{
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+}
+
+.celdaNombre{
+    width: 80%;
+}
+
+.celdaAño{
+    width: 10%;
+}
+
+.celda{
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    font-size: large;
+    margin-left: 20px;
+    height: 60px;
+    background-color: #808080;
+}
+
+.nombreTrabajo{
+    margin-left: 20px;
+}
+
+@media screen and (max-width:  900px){
+    .infoAlumnoPerfil{
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+        
+
+    }
+    .infoPerfil{
+    width: 50%;
+}
+    .contenedorImagenPerfil{
+       width: 50%; 
+       margin-left: auto;
+       margin-right: auto;
+    }
+    .imagenAlumnoPerfil{
+        width: 80%;
+        margin-left: auto;
+       margin-right: auto;
+    }
+    .tablaTrabajosAlumno{
+        margin-left: auto;
+        margin-right: auto;
+        width: 90%;
+    }
+}
+
+@media screen and (max-width:  600px){
+    .infoAlumnoPerfil{
+        width: 100%;  
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        height: auto;
+
+    }
+    .infoPerfil{
+        width: 90%;
+        margin-left: 40px;
+        margin-top: 20px;
+    }
+    .contenedorImagenPerfil{
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+        height: auto;
+    }
+    .imagenAlumnoPerfil{
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .tablaTrabajosAlumno{
+        margin-left: auto;
+        margin-right: auto;
+        width: 80%;
+    }
+    
+}
